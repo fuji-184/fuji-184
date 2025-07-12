@@ -1,0 +1,21 @@
+name: Profile Summary Cards
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */8 * * *"
+jobs:
+  build:
+    name: Generate summary cards
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          EXCLUDED_LANGUAGES: "html, css"
+        with:
+          USERNAME: ${{ github.repository_owner }}
