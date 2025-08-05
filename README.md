@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-My name is Fuji Santoso. I'm an undergraduate student at UPN "Veteran" Jawa Timur.
+My name is Fuji Santoso. I'm a fresh graduated student at UPN "Veteran" Jawa Timur.
 
 ## 📊 My GitHub Statistics
 
