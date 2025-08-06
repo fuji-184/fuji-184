@@ -2,7 +2,7 @@ name: Profile Summary Cards
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */8 * * *"
+    - cron: "0 0 */2 * *"
 jobs:
   build:
     name: Generate summary cards
