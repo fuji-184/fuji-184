@@ -52,13 +52,3 @@
 ```
 
     
-
----
-
-![](./4-productive-time.svg)
-
-```
-![](https://raw.githubusercontent.com/fuji-184/fuji-184/main/profile-summary-card-output/blueberry/4-productive-time.svg)
-```
-
-    
